@@ -14,6 +14,12 @@
     "url": "git+https://github.com/mukasaj/aero-ui.git"
   },
   "author": "Joshua Mukasa <joshmukasa@gmail.com",
+  "keywords":[
+    "aero",
+    "aero-ui",
+    "aero component library",
+    "UI component library"
+  ],
   "bugs": {
     "url": "https://github.com/mukasaj/aero-ui"
   },
