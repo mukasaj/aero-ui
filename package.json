@@ -1,7 +1,7 @@
 {
-  "name": "create-react-library",
-  "version": "3.0.0",
-  "description": "React NPM library starter kit based on Facebook's create react app",
+  "name": "aero-ui",
+  "version": "0.0.3",
+  "description": "react ui library",
   "main": "build/index.js",
   "scripts": {
     "start": "node scripts/start.js",
@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DimiMikadze/create-react-library.git"
+    "url": "git+https://github.com/mukasaj/aero-ui.git"
   },
-  "author": "Dimi Mikadze <dimi@udilia.com>",
+  "author": "Joshua Mukasa <joshmukasa@gmail.com",
   "bugs": {
-    "url": "https://github.com/DimiMikadze/create-react-library/issues"
+    "url": "https://github.com/mukasaj/aero-ui"
   },
-  "homepage": "https://github.com/DimiMikadze/create-react-library#readme",
+  "homepage": "https://aero-ui.com",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
