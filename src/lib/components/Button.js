@@ -12,17 +12,30 @@ const Button = (props) =>{
     switch (type) {
         case "primary":
             componentStyle={
-                color: 'red',
+                color: 'white',
+                backgroundColor: "#2AABF1",
+                border: "none",
+                fontSize: '15px',
                 borderRadius: '5px',
+                textAlign: 'center',
             }
             break;
+        case "danger":
+                componentStyle={
+                    color: '#F12D2A',
+                    backgroundColor: "#F0EDED",
+                    border: "none",
+                    borderRadius: '5px',
+                    textAlign: 'center',
+                }
+                break;    
         default: break;
     }
     switch (size) {
         case "default":
             sizeStyle={
-                width: '100px',
-                height: '35px',
+                width: 'auto',
+                height: '30px',
             }
             break;
         default: break;

@@ -3,7 +3,11 @@ import { Button } from '../lib';
 
 const App = () => (
   <div>
-    <Button onClick={() => console.log("clicked")} >some text</Button >
+    <Button 
+    type="primary" 
+    onClick={() => console.log("clicked")} >
+      some text
+    </Button >
   </div>
 );
 
