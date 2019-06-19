@@ -4,10 +4,10 @@
   </a>
 </p>
 
-# Aero-Ui
+# Aero-UI
 
 ## Getting started
 
-To user aero run the following command
+To add Aero-UI to your project run the following command
 
 * npm i aero-ui
