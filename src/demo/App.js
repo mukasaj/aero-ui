@@ -3,11 +3,9 @@ import { Button } from '../lib';
 
 const App = () => (
   <div>
-    <Button 
-    type="primary" 
-    onClick={() => console.log("clicked")} >
-      some text
-    </Button >
+    <Button type="primary">Primary</Button >
+    <Button type="danger">Danger</Button >
+    <Button type="text">Text Button</Button >
   </div>
 );
 

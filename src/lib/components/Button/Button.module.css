@@ -1,0 +1,31 @@
+.btn{
+    border: none;
+}
+.btn:hover{
+    filter: brightness(85%);
+}
+.primary{
+    color: white;
+    background-Color: #2AABF1;
+    font-Size: 15px;
+    border-Radius: 5px;
+    text-Align: center;
+}
+.danger{
+    color: #F12D2A;
+    background-Color: #F0EDED;
+    border-Radius: 5px;
+    text-Align: center;
+}
+.text{
+    color:  #2AABF1;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.default{
+    width: auto;
+    height: 30px;
+}
