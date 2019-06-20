@@ -1,7 +1,7 @@
-.btn{
+button{
     border: none;
 }
-.btn:hover{
+button:hover{
     filter: brightness(85%);
 }
 .primary{

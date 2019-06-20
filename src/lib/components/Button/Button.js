@@ -9,7 +9,7 @@ const Button = (props) =>{
         type = "primary",
         size = "default",
     } = props
-    const componentClass = [styles.btn, styles[type], styles[size]].join(' ');
+    const componentClass = [styles[type], styles[size]].join(' ');
 
     return(
         <button 
