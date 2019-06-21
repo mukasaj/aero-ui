@@ -1,13 +1,17 @@
-button{
-    border: none;
+button{border: none; font-Size: 15px;}
+button:hover:enabled{filter: brightness(85%); cursor:pointer;}
+button:active:enabled{filter: brightness(75%);}
+button:focus {outline:0;}
+button:disabled{
+    background: #F5F5F5;
+    color : #C3C3C3;
 }
-button:hover{
-    filter: brightness(85%);
+button:disabled:hover{
+    cursor: not-allowed;
 }
 .primary{
     color: white;
     background-Color: #2AABF1;
-    font-Size: 15px;
     border-Radius: 5px;
     text-Align: center;
 }
@@ -21,7 +25,12 @@ button:hover{
     color:  #2AABF1;
     background-color: Transparent;
     background-repeat:no-repeat;
-    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+.text:disabled{
+    background-color: Transparent;
+    background-repeat:no-repeat;
     overflow: hidden;
     outline:none;
 }

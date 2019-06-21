@@ -10,4 +10,6 @@
 
 To add Aero-UI to your project run the following command
 
-* npm i aero-ui
+```
+ npm i aero-ui
+```

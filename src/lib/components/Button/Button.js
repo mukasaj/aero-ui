@@ -6,6 +6,7 @@ const Button = (props) =>{
         onClick = null,
         style = null,
         children = "Button",
+        disabled = null,
         type = "primary",
         size = "default",
     } = props
@@ -15,7 +16,8 @@ const Button = (props) =>{
         <button 
         onClick={onClick} 
         className={componentClass}
-        style={{...style}}>
+        style={{...style}}
+        disabled={disabled}>
             {children}
         </button>
     )
