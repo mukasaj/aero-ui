@@ -1,6 +1,6 @@
 {
   "name": "aero-ui",
-  "version": "0.0.5Alpha",
+  "version": "0.0.6Alpha",
   "description": "react ui library",
   "main": "build/index.js",
   "scripts": {
