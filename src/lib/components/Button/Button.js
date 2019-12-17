@@ -10,8 +10,8 @@ const Button = (props) =>{
         type = "primary",
         size = "default",
     } = props
-    const componentClass = [styles[type], styles[size]].join(' ');
-
+    const componentClass = [styles[type.toLowerCase()], styles[size.toLowerCase()]].join(' ');
+    console.log(componentClass);
     return(
         <button 
         onClick={onClick} 

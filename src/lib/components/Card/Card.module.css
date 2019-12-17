@@ -1,0 +1,22 @@
+.div{
+    text-align: center;
+}
+.div:hover{
+    cursor: pointer;
+}
+.primary{
+    background-color: #eeeeee;
+    border: 1px solid #969696;
+}
+.small{
+    width: 80px;
+    height: 40px;
+}
+.default{
+    width: 100px;
+    height: 50px;
+}
+.large{
+    width: 150px;
+    height: 75px;
+}

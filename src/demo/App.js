@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'
 import { Button, Input } from '../lib';
+import Card from '../lib/components/Card/Card';
 
 class App extends React.Component{
   state ={
@@ -13,7 +14,7 @@ class App extends React.Component{
     return(
       <div>
         <section>
-          <Button onClick={this.buttonToggle} type="primary">Toggle</Button >
+          <Button onClick={this.buttonToggle} type="Primary">Toggle</Button >
           <Button disabled={this.state.button} type="primary">Primary</Button >
           <Button disabled={this.state.button} type="danger">Danger</Button >
           <Button disabled={this.state.button} type="text">Text Button</Button >
@@ -21,6 +22,9 @@ class App extends React.Component{
         </section>
         <section>
           <Input>Hi</Input>
+        </section>
+        <section>
+          <Card clickable onClick={() => console.log("Card Clicked")}>Card</Card>
         </section>
       </div>
     );

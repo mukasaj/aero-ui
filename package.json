@@ -25,7 +25,9 @@
   },
   "homepage": "https://aero-ui.com",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@csstools/normalize.css": "^10.1.0"
+  },
   "devDependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "^4.3.1",
