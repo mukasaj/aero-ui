@@ -4,6 +4,14 @@
 # testing
 /coverage
 
+# User-specific stuff:
+.idea
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
 # misc
 .DS_Store
 .env.local
@@ -22,8 +30,7 @@ scripts
 config
 demo
 .travis.yml
-CHANGELOG.md
-README.md
+*.md
 .storybook
 .idea
 .git
