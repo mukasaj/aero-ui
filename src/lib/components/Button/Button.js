@@ -3,6 +3,7 @@ import styles from './Button.module.css';
 
 const Button = (props) =>{
     const {
+        defaultStyled = true,
         onClick = null,
         style = null,
         children = "Button",
@@ -15,7 +16,7 @@ const Button = (props) =>{
     return(
         <button 
         onClick={onClick} 
-        className={componentClass}
+        className={defaultStyled ? componentClass : null}
         style={{...style}}
         disabled={disabled}>
             {children}
