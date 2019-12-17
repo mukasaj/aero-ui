@@ -9,16 +9,15 @@ const card = (props) => {
         children = "card",
         type = "primary",
         size = "default",
-    } = props
+        transparent = false
+    } = props;
     const componentClass = [styles.div, styles[type.toLowerCase()], styles[size.toLowerCase()]].join(' ');
 
     return(
-        <div 
-        onClick={onClick}
-        className={
-            componentClass
-        }
-        style={style}
+        <div
+            onClick={clickable ? onClick : null}
+            className={componentClass}
+            style={style}
         >
             {children}
         </div>
