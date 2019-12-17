@@ -1,6 +1,6 @@
 {
   "name": "aero-ui",
-  "version": "0.0.6Alpha",
+  "version": "0.0.10",
   "description": "react ui library",
   "main": "build/index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/mukasaj/aero-ui.git"
   },
-  "author": "Joshua Mukasa <joshmukasa@gmail.com",
+  "author": "Joshua Mukasa",
   "keywords": [
     "aero",
     "aero-ui",
